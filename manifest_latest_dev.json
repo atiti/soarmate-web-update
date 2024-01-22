@@ -1,0 +1,13 @@
+{
+  "name": "SoarMate Vario v1.0",
+  "version": "1.0",
+  "funding_url": "https://soarmate.io",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware/soarmate-vario-latest-dev.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
